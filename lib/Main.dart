@@ -54,7 +54,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               Text(
                 'If anyone thinks well of you, then make his opinion true.',
-                style: TextStyle(fontSize: 24, fontFamily: 'Yusei'),
+                style: TextStyle(fontSize: 20, fontFamily: 'Yusei'),
               ),
               const SizedBox(height: 12),
               Text(
