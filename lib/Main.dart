@@ -22,7 +22,7 @@ class MainPage extends StatefulWidget {
   final String title;
 
   const MainPage({
-    @required this.title,
+    @override this.title,
   });
 
   @override
@@ -54,12 +54,12 @@ class _MainPageState extends State<MainPage> {
             children: [
               Text(
                 'If anyone thinks well of you, then make his opinion true.',
-                style: TextStyle(fontSize: 20, fontFamily: 'Yusei'),
+                style: TextStyle(fontSize: 17, fontFamily: 'Yusei'),
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 6),
               Text(
                 'Imam Ali (AS)',
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ],
           ),
@@ -135,11 +135,11 @@ class _MainPageState extends State<MainPage> {
             ButtonBar(
               alignment: MainAxisAlignment.start,
               children: [
-                FlatButton(
+                TextButton(
                   child: Text('Donate by Card'),
                   onPressed: () {},
                 ),
-                FlatButton(
+                TextButton(
                   child: Text('Donate by PayPal'),
                   onPressed: () {},
                 )
@@ -232,7 +232,7 @@ class _makePaymentState extends State<makePayment> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         // make PayPal payment
 
