@@ -1,3 +1,3 @@
-# mym_app
+# Muslim Youth in Motion
 
-The official app for Muslim Youth in Motion.
+The official Android/iOS app for Muslim Youth in Motion.
